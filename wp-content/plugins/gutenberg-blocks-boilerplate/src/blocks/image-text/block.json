@@ -1,0 +1,88 @@
+{
+	"apiVersion": 2,
+	"name": "custom-blocks/image-text",
+	"version": "0.1.0",
+	"title": "Image Text",
+	"category": "custom-blocks",
+	"icon": "text",
+	"description": "Example block written with ESNext standard and JSX support build step required.",
+	"supports": {
+		"html": false,
+		"anchor": true
+	},
+	"attributes": {
+		"content": {
+			"type": "string",
+			"default": "Hello World!"
+		},
+		"color": {
+			"type": "string",
+			"default": "#00ff00"
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"title": {
+			"type": "string",
+			"default": "Your title"
+		},
+		"description": {
+			"type": "string",
+			"default": "Your description"
+		},
+		"link": {
+			"type": "string",
+			"default": ""
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"descriptionColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"linkColor": {
+			"type": "string",
+			"default": "#0000ff"
+		},
+		"linkColorHover": {
+			"type": "string",
+			"default": "#11117"
+		},
+		"imageFirst": {
+			"type": "boolean",
+			"default": false
+		},
+		"paddingTopDesktop": {
+			"type": "number",
+			"default": false
+		},
+		"paddingBottomDesktop": {
+			"type": "number",
+			"default": false
+		},
+		"paddingTopTablet": {
+			"type": "number",
+			"default": false
+		},
+		"paddingBottomTablet": {
+			"type": "number",
+			"default": false
+		},
+		"paddingTopMobile": {
+			"type": "number",
+			"default": false
+		},
+		"paddingBottomMobile": {
+			"type": "number",
+			"default": false
+		}
+		
+	},
+	"textdomain": "custom-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

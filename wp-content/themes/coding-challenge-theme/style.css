@@ -1,0 +1,12 @@
+/*
+Theme Name: Coding Challenge Theme
+Author: Marco Brunetti
+Description: A custom WordPress theme with Gutenberg block support.
+Version: 1.0
+Text Domain: coding-challenge-theme
+*/
+
+.main-container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
