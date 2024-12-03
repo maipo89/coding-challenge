@@ -104,6 +104,11 @@ $mobile: 400px;
 		&__link {
 			position: relative;
 			width: fit-content;
+			&__tag {
+				&:focus, &:focus-visible {
+					border: none;
+				}
+			}
 			a {
 				text-decoration: none !important;
 				outline: none !important;
@@ -113,6 +118,11 @@ $mobile: 400px;
 				color: var(--linkColor);
 				@media (max-width: $mobile) {
 					font-size: 14px;
+				}
+				&:focus, &:focus-visible {
+                   border: 3px solid #00c5b7;
+				   border-radius: 10px;
+				   padding: 2px;
 				}
 			}
 			svg {
