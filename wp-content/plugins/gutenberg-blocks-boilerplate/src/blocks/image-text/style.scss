@@ -55,14 +55,14 @@ $mobile: 400px;
 			height: auto;
 		}
 		@media (max-width: $mobile) {
-			flex-direction: column;
+			flex-direction: column-reverse;
 			gap: 32px;
 		}
 
 		&.image-first {
 			flex-direction: row-reverse;
 			@media (max-width: $mobile) {
-				flex-direction: column;
+				flex-direction: column-reverse;
 				gap: 32px;
 			}
 		}
