@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 $tablet: 980px;
-$mobile: 400px;
+$mobile: 500px;
 
 h1.wp-block-post-title {
     display: none;
@@ -81,14 +81,14 @@ h1.wp-block-post-title {
 			height: auto;
 		}
 		@media (max-width: $mobile) {
-			flex-direction: column;
+			flex-direction: column-reverse;
 			gap: 32px;
 		}
 
 		&.image-first {
 			flex-direction: row-reverse;
 			@media (max-width: $mobile) {
-				flex-direction: column;
+				flex-direction: column-reverse;
 				gap: 32px;
 			}
 		}
